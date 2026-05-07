@@ -1,6 +1,5 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Recetas | Tu página n1 de cocina",
@@ -9,11 +8,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">
+    <html lang="es">
+      <body>
         <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {children}
       </body>
     </html>
   );

@@ -82,7 +82,7 @@ const recipes = [
 
 export default function Home() {
   return (
-    <div className="bg-[var(--bg-soft)]">
+    <div>
       <div className="max-w-6xl mx-auto px-4 py-8">
         {/*her */}
         <section className="mb-7 py-2.5 text-center">
